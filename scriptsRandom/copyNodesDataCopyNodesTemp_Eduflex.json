@@ -1,0 +1,132 @@
+{
+    "L_foot_02_AxisMirrorMD1": {
+        "attributes": {
+            "caching": false, 
+            "frozen": false, 
+            "input1X": 0.0, 
+            "input1Y": 90.0, 
+            "input1Z": 0.0, 
+            "input2X": 1.0, 
+            "input2Y": 1.0, 
+            "input2Z": 1.0, 
+            "isHistoricallyInteresting": 2, 
+            "nodeState": 0, 
+            "operation": 1, 
+            "outputX": 0.0, 
+            "outputY": 90.0, 
+            "outputZ": 0.0
+        }, 
+        "inputs": [
+            "L_foot_02_AxisMirrorMD1.input1Y", 
+            "unitConversion359.output", 
+            "L_foot_02_AxisMirrorMD1.input1Z", 
+            "unitConversion360.output"
+        ], 
+        "type": "multiplyDivide"
+    }, 
+    "L_foot_02_AxisMirrorPM1": {
+        "attributes": {
+            "caching": false, 
+            "frozen": false, 
+            "input1D[0]": -17.276456832885742, 
+            "isHistoricallyInteresting": 2, 
+            "nodeState": 0, 
+            "operation": 1, 
+            "output1D": -17.276456832885742, 
+            "output2Dx": 0.0, 
+            "output2Dy": 0.0, 
+            "output3Dx": 0.0, 
+            "output3Dy": 0.0, 
+            "output3Dz": 0.0
+        }, 
+        "inputs": [
+            "L_foot_02_AxisMirrorPM1.input1D[0]", 
+            "unitConversion358.output"
+        ], 
+        "type": "plusMinusAverage"
+    }, 
+    "unitConversion358": {
+        "attributes": {
+            "caching": false, 
+            "conversionFactor": 57.29577951308232, 
+            "frozen": false, 
+            "isHistoricallyInteresting": 0, 
+            "nodeState": 0
+        }, 
+        "inputs": [
+            "unitConversion358.input", 
+            "L_foot_02_orientMesh.rotateX"
+        ], 
+        "type": "unitConversion"
+    }, 
+    "unitConversion359": {
+        "attributes": {
+            "caching": false, 
+            "conversionFactor": 57.29577951308232, 
+            "frozen": false, 
+            "isHistoricallyInteresting": 0, 
+            "nodeState": 0
+        }, 
+        "inputs": [
+            "unitConversion359.input", 
+            "L_foot_02_orientMesh.rotateY"
+        ], 
+        "type": "unitConversion"
+    }, 
+    "unitConversion360": {
+        "attributes": {
+            "caching": false, 
+            "conversionFactor": 57.29577951308232, 
+            "frozen": false, 
+            "isHistoricallyInteresting": 0, 
+            "nodeState": 0
+        }, 
+        "inputs": [
+            "unitConversion360.input", 
+            "L_foot_02_orientMesh.rotateZ"
+        ], 
+        "type": "unitConversion"
+    }, 
+    "unitConversion361": {
+        "attributes": {
+            "caching": false, 
+            "conversionFactor": 0.017453292519943295, 
+            "frozen": false, 
+            "isHistoricallyInteresting": 0, 
+            "nodeState": 0
+        }, 
+        "inputs": [
+            "unitConversion361.input", 
+            "L_foot_02_AxisMirrorPM1.output1D"
+        ], 
+        "type": "unitConversion"
+    }, 
+    "unitConversion362": {
+        "attributes": {
+            "caching": false, 
+            "conversionFactor": 0.017453292519943295, 
+            "frozen": false, 
+            "isHistoricallyInteresting": 0, 
+            "nodeState": 0
+        }, 
+        "inputs": [
+            "unitConversion362.input", 
+            "L_foot_02_AxisMirrorMD1.outputY"
+        ], 
+        "type": "unitConversion"
+    }, 
+    "unitConversion363": {
+        "attributes": {
+            "caching": false, 
+            "conversionFactor": 0.017453292519943295, 
+            "frozen": false, 
+            "isHistoricallyInteresting": 0, 
+            "nodeState": 0
+        }, 
+        "inputs": [
+            "unitConversion363.input", 
+            "L_foot_02_AxisMirrorMD1.outputZ"
+        ], 
+        "type": "unitConversion"
+    }
+}

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jenAutorig_v2_MainWindow</class>
+ <widget class="QMainWindow" name="jenAutorig_v2_MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>727</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>jenAutorig_v2.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget_Global">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_Modules">
+     <property name="toolTip">
+      <string>Config your setup</string>
+     </property>
+     <attribute name="title">
+      <string>Modules</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_LocalModules">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>621</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Triangular</enum>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideNone</enum>
+      </property>
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>false</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab_Hip">
+       <attribute name="title">
+        <string>Hip-Base</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_hip_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>451</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Hip_01</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_HipInput_1">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>40</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;&lt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_HipInput_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>55</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Input:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_HipInput_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>113</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <zorder>pushButton_HipInput_1</zorder>
+        <zorder>label_HipInput_1</zorder>
+        <zorder>lineEdit_HipInput_1</zorder>
+        <zorder>verticalLayoutWidget</zorder>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_Spine">
+       <attribute name="title">
+        <string>Spine</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_Spine_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>571</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Spine_01</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_SpineOutput_1">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>90</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;&lt;</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_SpineInput_1">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>40</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>&lt;&lt;</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_SpineOutput_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>113</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_SpineOutput_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>55</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>output:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_SpineInput_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>55</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Input:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_SpineInput_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>113</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_SpineType_1">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>10</y>
+           <width>111</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Type</string>
+         </property>
+         <widget class="QCheckBox" name="checkBox_SpineRibbon_1">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>50</y>
+            <width>81</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Ribbon</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_SpineIKSpline_1">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>81</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>IK Spline</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_Connector">
+       <attribute name="title">
+        <string>Connector</string>
+       </attribute>
+       <widget class="QScrollArea" name="scrollArea_Connector">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>611</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOn</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="widgetResizable">
+         <bool>false</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_Connector">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>590</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <widget class="QGroupBox" name="groupBox_Connector_1">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>551</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Connector_01</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_ConnectorOutput_1">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>90</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;&lt;</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_ConnectorInput_1">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>40</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;&lt;</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_ConnectorOutput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>113</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_ConnectorOutput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>55</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>output:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_ConnectorInput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>55</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Input:</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_ConnectorInput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>113</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_ConnectorType_1">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>10</y>
+             <width>111</width>
+             <height>101</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Type</string>
+           </property>
+           <widget class="QCheckBox" name="checkBox_ConnectorIK_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>IK</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="checkBox_ConnectorFK_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>50</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>FK</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_ConnectorAdd_1">
+           <property name="geometry">
+            <rect>
+             <x>290</x>
+             <y>10</y>
+             <width>111</width>
+             <height>101</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Add</string>
+           </property>
+           <widget class="QCheckBox" name="checkBox_ConnectorRibbon_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Ribbon</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_ConnectorAdd_1">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>10</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_Limbs">
+       <attribute name="title">
+        <string>Limbs</string>
+       </attribute>
+       <widget class="QScrollArea" name="scrollArea_Limbs">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>611</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOn</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="widgetResizable">
+         <bool>false</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_Limbs">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>590</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <widget class="QGroupBox" name="groupBox_Limbs_1">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>551</width>
+            <height>121</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Limbs_01</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_LimbsOutput_1">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>90</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;&lt;</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_LimbsInput_1">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>40</y>
+             <width>31</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>&lt;&lt;</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_LimbsOutput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>113</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_LimbsOutput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>55</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>output:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_LimbsInput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>55</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Input:</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_LimbsInput_1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>113</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_LimbsType_1">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>10</y>
+             <width>111</width>
+             <height>101</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Type</string>
+           </property>
+           <widget class="QCheckBox" name="checkBox_LimbsIKFK_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>IK/FK</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="checkBox_LimbsIK_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>50</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>IK</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="checkBox_LimbsFK_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>80</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>FK</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_LimbsAdd_1">
+           <property name="geometry">
+            <rect>
+             <x>290</x>
+             <y>10</y>
+             <width>111</width>
+             <height>101</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Add</string>
+           </property>
+           <widget class="QCheckBox" name="checkBox_LimbsRibbon_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Ribbon</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="checkBox_LimbsSleeve_1">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>50</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Sleeve</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_LimbAdd">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>10</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_Fingers">
+       <attribute name="title">
+        <string>Fingers</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_Feet">
+       <attribute name="title">
+        <string>Feet</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_Head">
+       <attribute name="title">
+        <string>Head</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_Face">
+       <attribute name="title">
+        <string>Face</string>
+       </attribute>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Meshes</string>
+     </attribute>
+    </widget>
+   </widget>
+   <zorder>tabWidget_Global</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>widget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>727</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="mnu_OpenPreset"/>
+    <addaction name="mnu_SavePreset"/>
+    <addaction name="separator"/>
+    <addaction name="mnu_Close"/>
+   </widget>
+   <widget class="QMenu" name="menu_Add">
+    <property name="title">
+     <string>Add</string>
+    </property>
+    <addaction name="mnu_CustomModule"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menu_Add"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(7, 7, 7);</string>
+   </property>
+  </widget>
+  <action name="mnu_OpenPreset">
+   <property name="text">
+    <string>Load Preset</string>
+   </property>
+  </action>
+  <action name="mnu_SavePreset">
+   <property name="text">
+    <string>Save Preset</string>
+   </property>
+  </action>
+  <action name="mnu_CustomModule">
+   <property name="text">
+    <string>Custom Module</string>
+   </property>
+  </action>
+  <action name="mnu_Close">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>checkBox_LimbsIKFK_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox_LimbsIK_1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>235</x>
+     <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_LimbsIKFK_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox_LimbsFK_1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>263</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>256</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

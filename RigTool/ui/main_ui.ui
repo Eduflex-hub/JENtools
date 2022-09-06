@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RigTools_Window</class>
+ <widget class="QMainWindow" name="RigTools_Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>4999</width>
+    <height>5000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Rig Tools V0.1</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>701</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_basic">
+     <attribute name="title">
+      <string>Basic</string>
+     </attribute>
+     <widget class="QGroupBox" name="controlCreatorGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>179</width>
+        <height>339</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Control Creator</string>
+      </property>
+      <widget class="QCheckBox" name="onSelectCheckBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>71</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>On Select</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="circleButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Circle</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="squareButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Square</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="cubeButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cube</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sphereButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Sphere</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="arrowButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Arrow</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="doubleArrowButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DArrow</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ballonButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ballon</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="doubleBallonButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DBallon</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="arrowCrossButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Arrow Cross</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="xButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>120</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="semiSphereButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Semi Sphere</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pyramidButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pyramid</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="curvedDArrowButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>160</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Curved DArrow</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="curvedCrossButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Curved Cross</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="constrainedCheckBox">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>81</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Joint Cons</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="colorGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>161</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Colors</string>
+       </property>
+       <widget class="QPushButton" name="redColorButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="greenLightColorButton">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="yellowColorButton">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>20</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="blueDarkColorButton">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>20</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="orangeColorButton">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>20</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 141, 2);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="greenDarkColorButton">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>40</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 156, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="blueLightColorButton">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(121, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pinkColorButton">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>40</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 0, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="grayColorButton">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(131, 131, 131);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="blackColorButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="helpersGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>151</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Helpers</string>
+       </property>
+       <widget class="QPushButton" name="locatorButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>20</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Locator</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="clusterButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Cluster</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ikHandleButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>IKHandle</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="toolsGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>0</y>
+        <width>169</width>
+        <height>339</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Usefull Tools</string>
+      </property>
+      <widget class="QPushButton" name="alignButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Align</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="positionCheckBox">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>10</y>
+         <width>71</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Position</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="orientationCheckBox">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>30</y>
+         <width>81</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Orientation</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="separatorTools">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="localRotationAxesButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>LRA</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="localGroupButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>localGroup</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="constraintsGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>151</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Constraints</string>
+       </property>
+       <widget class="QPushButton" name="scaleToEndButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>130</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ScaleToEnd</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="parentToEndButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ParToEnd</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pointToEndButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>110</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>PoinToEnd</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="orientToEndButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>OriToEnd</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="motionOffsetCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>20</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MO?</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="parentButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Parent</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pointButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Point</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="orientConsButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Orient</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="scaleButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Scale</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="aimButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Aim</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pointOnPolyButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>80</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>pOnPoly</string>
+        </property>
+       </widget>
+       <widget class="Line" name="separator1">
+        <property name="geometry">
+         <rect>
+          <x>7</x>
+          <y>90</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="getDistanceButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>getDistance</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="distanceText">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>0.00</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="copyAttributesGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>151</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Copy to Opposite</string>
+       </property>
+       <widget class="QPushButton" name="copyButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>50</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Copy Now</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="allCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>31</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>All</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="userDefinedCheckBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>10</y>
+          <width>41</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>UD</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="transformCheckBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>51</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Transf</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="isMirrorCheckBox">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>30</y>
+          <width>71</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Is Mirror?</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="prefixLeftTextBox">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>26</y>
+          <width>31</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>L_</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="prefixRigthTextBox">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>31</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>R_</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="prefixText_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>left:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="prefixText_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>rigth:</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="jointTololsGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>0</y>
+        <width>169</width>
+        <height>339</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Joint Tools</string>
+      </property>
+      <widget class="QPushButton" name="createJointButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Create</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="insertButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Insert</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="mirrorButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mirror</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="midJointButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MidJoint</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="deformersGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>151</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Deformers</string>
+       </property>
+       <widget class="QPushButton" name="blendShapeButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>BlendShape</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="wrapButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>20</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Wrap</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="wireButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Wire</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="latticeButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Lattice</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="squashButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>80</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Squash</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="flareButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Flare</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bendButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Bend</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="sineButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Sine</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="twistButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Twist</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="waveButton">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Wave</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="skinClusterButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>skinCluster</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="startRigButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Start Rig</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="orientButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Orient</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="freezeButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Freeze</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="deleteHistoryButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Delete Hist</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="editGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>0</y>
+        <width>169</width>
+        <height>339</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Edit</string>
+      </property>
+      <widget class="QPushButton" name="skinAddinfluenceButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>skinAddInf</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="skinRemoveButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>skinRemove</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="copySkinWeightsButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>copySkinW</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="paintSkinWeightsButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>paintSkinW</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="paintBlendShapeButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>paintBsW</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="mirrorSkinWeightsButton">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>mirrorSkinW</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="deformerWindowButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>DeformerWin</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="renameGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>151</width>
+         <height>211</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Rename</string>
+       </property>
+       <widget class="QLabel" name="prefixText">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Prefix:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="suffixText">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Suffix:</string>
+        </property>
+       </widget>
+       <widget class="Line" name="renameSeparator">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="searchAndReplaceButton">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>120</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Search and Replace</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="renameItButton">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rename it!</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="replaceButton">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>180</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Replace</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nameTextBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>16</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="prefixTextBox">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>46</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>C_</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="suffixTextBox">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>65</y>
+          <width>91</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>_JNT</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="searchTextBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>136</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="replaceTextBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>156</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="componentEditorButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ComponentEd</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_advanced">
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <attribute name="title">
+      <string>Advanced</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>702</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mnuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="mnuReset"/>
+    <addaction name="mnuClose"/>
+    <addaction name="separator"/>
+    <addaction name="mnuNGTools"/>
+    <addaction name="mnuSublime"/>
+   </widget>
+   <addaction name="mnuFile"/>
+  </widget>
+  <action name="actionReset_Values">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Reset Values</string>
+   </property>
+  </action>
+  <action name="mnuClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="mnuReset">
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </action>
+  <action name="mnuNGTools">
+   <property name="text">
+    <string>Open NGTools</string>
+   </property>
+  </action>
+  <action name="mnuSublime">
+   <property name="text">
+    <string>Bind to Sublime</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>onSelectCheckBox</tabstop>
+  <tabstop>constrainedCheckBox</tabstop>
+  <tabstop>circleButton</tabstop>
+  <tabstop>squareButton</tabstop>
+  <tabstop>cubeButton</tabstop>
+  <tabstop>sphereButton</tabstop>
+  <tabstop>arrowButton</tabstop>
+  <tabstop>doubleArrowButton</tabstop>
+  <tabstop>ballonButton</tabstop>
+  <tabstop>doubleBallonButton</tabstop>
+  <tabstop>arrowCrossButton</tabstop>
+  <tabstop>xButton</tabstop>
+  <tabstop>semiSphereButton</tabstop>
+  <tabstop>pyramidButton</tabstop>
+  <tabstop>curvedCrossButton</tabstop>
+  <tabstop>curvedDArrowButton</tabstop>
+  <tabstop>redColorButton</tabstop>
+  <tabstop>greenLightColorButton</tabstop>
+  <tabstop>yellowColorButton</tabstop>
+  <tabstop>blueDarkColorButton</tabstop>
+  <tabstop>orangeColorButton</tabstop>
+  <tabstop>blackColorButton</tabstop>
+  <tabstop>grayColorButton</tabstop>
+  <tabstop>pinkColorButton</tabstop>
+  <tabstop>blueLightColorButton</tabstop>
+  <tabstop>greenDarkColorButton</tabstop>
+  <tabstop>alignButton</tabstop>
+  <tabstop>positionCheckBox</tabstop>
+  <tabstop>orientationCheckBox</tabstop>
+  <tabstop>localRotationAxesButton</tabstop>
+  <tabstop>localGroupButton</tabstop>
+  <tabstop>getDistanceButton</tabstop>
+  <tabstop>allCheckBox</tabstop>
+  <tabstop>userDefinedCheckBox</tabstop>
+  <tabstop>transformCheckBox</tabstop>
+  <tabstop>isMirrorCheckBox</tabstop>
+  <tabstop>copyButton</tabstop>
+  <tabstop>motionOffsetCheckBox</tabstop>
+  <tabstop>parentButton</tabstop>
+  <tabstop>pointButton</tabstop>
+  <tabstop>orientConsButton</tabstop>
+  <tabstop>scaleButton</tabstop>
+  <tabstop>aimButton</tabstop>
+  <tabstop>pointOnPolyButton</tabstop>
+  <tabstop>parentToEndButton</tabstop>
+  <tabstop>pointToEndButton</tabstop>
+  <tabstop>orientToEndButton</tabstop>
+  <tabstop>scaleToEndButton</tabstop>
+  <tabstop>createJointButton</tabstop>
+  <tabstop>insertButton</tabstop>
+  <tabstop>mirrorButton</tabstop>
+  <tabstop>midJointButton</tabstop>
+  <tabstop>skinClusterButton</tabstop>
+  <tabstop>startRigButton</tabstop>
+  <tabstop>ikHandleButton</tabstop>
+  <tabstop>locatorButton</tabstop>
+  <tabstop>clusterButton</tabstop>
+  <tabstop>blendShapeButton</tabstop>
+  <tabstop>wrapButton</tabstop>
+  <tabstop>latticeButton</tabstop>
+  <tabstop>wireButton</tabstop>
+  <tabstop>bendButton</tabstop>
+  <tabstop>flareButton</tabstop>
+  <tabstop>sineButton</tabstop>
+  <tabstop>squashButton</tabstop>
+  <tabstop>twistButton</tabstop>
+  <tabstop>waveButton</tabstop>
+  <tabstop>skinAddinfluenceButton</tabstop>
+  <tabstop>skinRemoveButton</tabstop>
+  <tabstop>copySkinWeightsButton</tabstop>
+  <tabstop>mirrorSkinWeightsButton</tabstop>
+  <tabstop>paintSkinWeightsButton</tabstop>
+  <tabstop>paintBlendShapeButton</tabstop>
+  <tabstop>deformerWindowButton</tabstop>
+  <tabstop>nameTextBox</tabstop>
+  <tabstop>prefixTextBox</tabstop>
+  <tabstop>suffixTextBox</tabstop>
+  <tabstop>renameItButton</tabstop>
+  <tabstop>searchTextBox</tabstop>
+  <tabstop>replaceTextBox</tabstop>
+  <tabstop>replaceButton</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>alignButton</tabstop>
+  <tabstop>positionCheckBox</tabstop>
+  <tabstop>localRotationAxesButton</tabstop>
+  <tabstop>localGroupButton</tabstop>
+  <tabstop>scaleToEndButton</tabstop>
+  <tabstop>parentToEndButton</tabstop>
+  <tabstop>pointToEndButton</tabstop>
+  <tabstop>orientToEndButton</tabstop>
+  <tabstop>motionOffsetCheckBox</tabstop>
+  <tabstop>pointButton</tabstop>
+  <tabstop>scaleButton</tabstop>
+  <tabstop>aimButton</tabstop>
+  <tabstop>pointOnPolyButton</tabstop>
+  <tabstop>getDistanceButton</tabstop>
+  <tabstop>copyButton</tabstop>
+  <tabstop>allCheckBox</tabstop>
+  <tabstop>userDefinedCheckBox</tabstop>
+  <tabstop>transformCheckBox</tabstop>
+  <tabstop>isMirrorCheckBox</tabstop>
+  <tabstop>onSelectCheckBox</tabstop>
+  <tabstop>circleButton</tabstop>
+  <tabstop>squareButton</tabstop>
+  <tabstop>cubeButton</tabstop>
+  <tabstop>sphereButton</tabstop>
+  <tabstop>arrowButton</tabstop>
+  <tabstop>doubleArrowButton</tabstop>
+  <tabstop>ballonButton</tabstop>
+  <tabstop>doubleBallonButton</tabstop>
+  <tabstop>arrowCrossButton</tabstop>
+  <tabstop>xButton</tabstop>
+  <tabstop>semiSphereButton</tabstop>
+  <tabstop>pyramidButton</tabstop>
+  <tabstop>curvedDArrowButton</tabstop>
+  <tabstop>curvedCrossButton</tabstop>
+  <tabstop>constrainedCheckBox</tabstop>
+  <tabstop>redColorButton</tabstop>
+  <tabstop>greenLightColorButton</tabstop>
+  <tabstop>yellowColorButton</tabstop>
+  <tabstop>blueDarkColorButton</tabstop>
+  <tabstop>orangeColorButton</tabstop>
+  <tabstop>greenDarkColorButton</tabstop>
+  <tabstop>blueLightColorButton</tabstop>
+  <tabstop>pinkColorButton</tabstop>
+  <tabstop>grayColorButton</tabstop>
+  <tabstop>blackColorButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>getDistanceButton</sender>
+   <signal>clicked()</signal>
+   <receiver>distanceText</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>300</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>onSelectCheckBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>constrainedCheckBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>76</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>114</x>
+     <y>76</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>onSelectCheckBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>constrainedCheckBox</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>63</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>108</x>
+     <y>65</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>allCheckBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>transformCheckBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>allCheckBox</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>userDefinedCheckBox</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>267</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
